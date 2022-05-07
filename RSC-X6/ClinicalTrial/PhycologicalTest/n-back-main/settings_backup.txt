@@ -1,0 +1,31 @@
+-->  Fields are in this order: ID, Label, MaxChar, Value !!! DON'T USE COMMA IN LABELS, DON'T CHANGE THIS FILE unless you know what you are doing !!!
+Person, Test person ID:   ,20,Thomas
+Remember_both, Remember both if number was shown/not shown? (YES/NO)  ,3,YES
+Level, Single game: level (0-4):    ,1,0
+Multi_games, Multi game: levels (separate with /)                        ,30,0/1
+Random_games_N, Random multi games:   How many to play?           ,3,2
+Random_games_levels,                                        Levels? (separate with -)   ,3,0-1
+0_back_target, 0-back target number:         ,1,4
+Breath_time, Breathing time (seconds):    ,3,1
+Slide_pause, Showing each slide this many seconds:    ,4,1.50
+Pause_between, Pause between each slide (seconds):        ,4,0.50
+Pause_games, Pause between each game (seconds):      ,4,2.00
+0_slides, Nr of slides - 0-back:    ,3,6
+1_slides,                    - 1-back:    ,3,6
+2_slides,                    - 2-back:    ,3,6
+3_slides,                    - 3-back:    ,3,6
+4_slides,                    - 4-back:    ,3,6
+prev_nr_probabil, Probability-% to see previous n-level number: ,3,25
+Show_scores, Show scores after each session? (YES/NO)       ,3,YES
+Use_pictures, Show pictures from picture folder? (YES/NO)   ,3,YES
+Picture_folder, Picture folder (only pictures are allowed in it):  ,40,Pictures
+Pict_x, Picture position - X:  ,4,1000
+Pict_y,                            - Y:  ,4,600
+Pict_size_x, Picture size        - X:  ,4,200
+Pict_size_y,                            - Y:  ,4,200
+ResX, Screen resolution - X: ,4,1200
+ResY,                               - Y: ,4,768
+Header_font_size, Font size - Header:     ,3,50
+Number_font_size,                 - Number:   ,3,750
+Start_sound, Starting game sound (file name):  ,50,Electronic_Chime-KevanGC-495939803.mp3
+Log_file, Log file (Person ID will be added in front):    ,20,_log.csv
